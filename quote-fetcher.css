@@ -1,0 +1,29 @@
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+ blockquote[data-quote] {
+   font-family: 'Merriweather', serif;
+   font-size: 2.5em;
+   font-weight: bold;
+   color: #000000;
+   text-align: center;
+   margin: 20px;
+   padding: 10px;
+ }
+
+ h1[data-character] {
+   font-family: 'Merriweather', serif;
+   font-size: 1.2em;
+   color: #33333380;
+   text-align: right;
+   margin: 10px;
+   padding: 5px;
+   border-bottom: 3px solid #00000037;
+ }
+
+blockquote[data-quote]::before {
+  content: '«';
+}
+
+blockquote[data-quote]::after {
+  content: '»';
+}
